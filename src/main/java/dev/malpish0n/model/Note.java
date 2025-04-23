@@ -2,9 +2,9 @@ package dev.malpish0n.model;
 
 public class Note {
     
-    public Long id;
-    public String title;
-    public String content;
+    private Long id;
+    private String title;
+    private String content;
 
 
     public Note(Long id, String title, String content) {
