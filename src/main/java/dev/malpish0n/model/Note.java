@@ -12,7 +12,7 @@ public class Note {
         this.id = id;
         this.title = title;
         this.content = content;
-        s
+    
     }
 
     public Long getId() {
