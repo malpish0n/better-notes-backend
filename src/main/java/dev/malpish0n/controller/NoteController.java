@@ -1,18 +1,16 @@
 package dev.malpish0n.controller;
-import java.util.List;
+
+import dev.malpish0n.model.Note;
+import dev.malpish0n.service.NoteService;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.GetMapping;
-import dev.malpish0n.service.NoteService;
-import dev.malpish0n.model.Note;
-
-
+import java.util.List;
 
 @RestController
 @RequestMapping("/api/notes")
-
 public class NoteController {
-    
+
     private final NoteService noteService;
 
     public NoteController(NoteService noteService) {
