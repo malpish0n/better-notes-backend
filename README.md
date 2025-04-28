@@ -1,35 +1,35 @@
-# Notes API 📒
+# 📒 Notes API
 
-Prosty serwis do tworzenia i zarządzania notatkami stworzony w Spring Boot 3.x
+A simple service for creating and managing notes, built with Spring Boot 3.x.
 
-## Technologia 📚
+## 📚 Technologies
 
 - Java 21
 - Spring Boot 3.4.4
 - Spring Web, Spring Data JPA
-- Baza danych H2 (testowo)
+- H2 Database (in-memory for testing purposes)
 - Maven
 
-## Funkcjonalności 🚀
+## 🚀 Features
 
-- [x] Pobieranie listy wszystkich notatek (`GET /api/notes`)
-- [x] Struktura projektu (controller, service, repository, model)
-- [x] Wbudowana baza danych H2 (w pamięci)
-- [x] Maven jako system budowania
-- [x] Konfiguracja projektu z użyciem Spring Boot Starterów
+- [x] Fetch a list of all notes (`GET /api/notes`)
+- [x] Project structure (Controller, Service, Repository, Model)
+- [x] Embedded H2 in-memory database
+- [x] Maven as the build system
+- [x] Project configuration using Spring Boot Starters
 
-## Zaplanowane 🛠️
+## 🛠️ Planned Features
 
-- [ ] Tworzenie nowych notatek (`POST /api/notes`)
-- [ ] Aktualizacja istniejących notatek (`PUT /api/notes/{id}`)
-- [ ] Usuwanie notatek (`DELETE /api/notes/{id}`)
-- [ ] Obsługa błędów HTTP (404, 400)
-- [ ] Walidacja danych (np. tytuł nie może być pusty)
-- [ ] Dokumentacja API za pomocą Swaggera
-- [ ] Wdrożenie produkcyjne na PostgreSQL
-- [ ] Dodanie systemu logowania użytkowników (Spring Security)
+- [ ] Create new notes (`POST /api/notes`)
+- [ ] Update existing notes (`PUT /api/notes/{id}`)
+- [ ] Delete notes (`DELETE /api/notes/{id}`)
+- [ ] HTTP error handling (404, 400)
+- [ ] Data validation (e.g., title cannot be empty)
+- [ ] API documentation using Swagger
+- [ ] Production deployment using PostgreSQL
+- [ ] User login system (Spring Security)
 
-## Jak uruchomić projekt? 🚀
+## 🚀 How to Run the Project
 
 ```bash
 git clone https://github.com/malpish0n/notes-app.git
