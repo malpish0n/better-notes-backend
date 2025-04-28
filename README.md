@@ -2,6 +2,14 @@
 
 Prosty serwis do tworzenia i zarządzania notatkami stworzony w Spring Boot 3.
 
+## Technologia 📚
+
+- Java 21
+- Spring Boot 3.4.4
+- Spring Web, Spring Data JPA
+- Baza danych H2 (testowo)
+- Maven
+
 ## Funkcje dostępne 🛠️
 
 - [x] Pobieranie listy wszystkich notatek (`GET /api/notes`)
@@ -20,14 +28,6 @@ Prosty serwis do tworzenia i zarządzania notatkami stworzony w Spring Boot 3.
 - [ ] Dokumentacja API za pomocą Swaggera
 - [ ] Wdrożenie produkcyjne na PostgreSQL
 - [ ] Dodanie systemu logowania użytkowników (Spring Security)
-
-## Technologia 📚
-
-- Java 21
-- Spring Boot 3.4.4
-- Spring Web, Spring Data JPA
-- Baza danych H2 (testowo)
-- Maven
 
 ## Jak uruchomić projekt? 🚀
 
