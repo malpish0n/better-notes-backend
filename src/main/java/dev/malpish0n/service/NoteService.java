@@ -1,14 +1,13 @@
 package dev.malpish0n.service;
-import org.springframework.stereotype.Service;
+
 import dev.malpish0n.model.Note;
 import dev.malpish0n.repository.NoteRepository;
-
+import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
 @Service
 public class NoteService {
-    
     private final NoteRepository noteRepository;
 
     public NoteService(NoteRepository noteRepository) {
