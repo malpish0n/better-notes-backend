@@ -1,36 +1,37 @@
-# Notes App
+# Notes API 📒
 
-Prosta aplikacja backendowa do zarządzania notatkami.  
-Projekt stworzony w Javie 21 przy użyciu frameworka Spring Boot, z wykorzystaniem bazy danych PostgreSQL oraz konteneryzacji Dockerem.
+Prosty serwis do tworzenia i zarządzania notatkami stworzony w Spring Boot 3.
 
-## 🛠 Stack technologiczny
+## Funkcje dostępne 🛠️
+
+- [x] Pobieranie listy wszystkich notatek (`GET /api/notes`)
+- [x] Struktura projektu (controller, service, repository, model)
+- [x] Wbudowana baza danych H2 (w pamięci)
+- [x] Maven jako system budowania
+- [x] Konfiguracja projektu z użyciem Spring Boot Starterów
+
+## Plany rozwoju 🚀
+
+- [ ] Tworzenie nowych notatek (`POST /api/notes`)
+- [ ] Aktualizacja istniejących notatek (`PUT /api/notes/{id}`)
+- [ ] Usuwanie notatek (`DELETE /api/notes/{id}`)
+- [ ] Obsługa błędów HTTP (404, 400)
+- [ ] Walidacja danych (np. tytuł nie może być pusty)
+- [ ] Dokumentacja API za pomocą Swaggera
+- [ ] Wdrożenie produkcyjne na PostgreSQL
+- [ ] Dodanie systemu logowania użytkowników (Spring Security)
+
+## Technologia 📚
 
 - Java 21
-- Spring Boot 3.x
-- Spring Security (JWT)
-- PostgreSQL
-- Docker & Docker Compose
+- Spring Boot 3.4.4
+- Spring Web, Spring Data JPA
+- Baza danych H2 (testowo)
 - Maven
 
-## 🚀 Funkcjonalności (ukończone)
+## Jak uruchomić projekt? 🚀
 
-- Tworzenie nowych notatek
-- Pobieranie wszystkich notatek
-- Pobieranie pojedynczej notatki po ID
-- Edytowanie notatek
-- Usuwanie notatek
-
----
-
-## 🛠️ Zaplanowane (TODO)
-
-- Integracja z bazą danych PostgreSQL
-- Dockerfile i docker-compose.yml (konteneryzacja aplikacji + bazy)
-- Rejestracja i logowanie użytkowników (JWT Authentication)
-- Globalna obsługa błędów (ControllerAdvice)
-- Paginacja przy pobieraniu notatek
-- Filtrowanie notatek po tytule
-- Deploy aplikacji online (Railway / Render)
-- Automatyczne testowanie przy pushu (GitHub Actions)
-
----
+```bash
+git clone https://github.com/malpish0n/notes-app.git
+cd notes-app
+.\mvnw.cmd spring-boot:run
