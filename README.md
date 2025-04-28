@@ -32,5 +32,5 @@ Projekt stworzony w Javie 21 przy użyciu frameworka Spring Boot, z wykorzystani
 - Filtrowanie notatek po tytule
 - Deploy aplikacji online (Railway / Render)
 - Automatyczne testowanie przy pushu (GitHub Actions)
-- 
+
 ---
