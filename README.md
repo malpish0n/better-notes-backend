@@ -10,7 +10,7 @@ Prosty serwis do tworzenia i zarządzania notatkami stworzony w Spring Boot 3.
 - Baza danych H2 (testowo)
 - Maven
 
-## Funkcje dostępne 🛠️
+## Funkcjonalności 🚀
 
 - [x] Pobieranie listy wszystkich notatek (`GET /api/notes`)
 - [x] Struktura projektu (controller, service, repository, model)
@@ -18,7 +18,7 @@ Prosty serwis do tworzenia i zarządzania notatkami stworzony w Spring Boot 3.
 - [x] Maven jako system budowania
 - [x] Konfiguracja projektu z użyciem Spring Boot Starterów
 
-## Plany rozwoju 🚀
+## Zaplanowane 🛠️
 
 - [ ] Tworzenie nowych notatek (`POST /api/notes`)
 - [ ] Aktualizacja istniejących notatek (`PUT /api/notes/{id}`)
