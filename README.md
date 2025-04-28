@@ -1,6 +1,6 @@
 # Notes API 📒
 
-Prosty serwis do tworzenia i zarządzania notatkami stworzony w Spring Boot 3.
+Prosty serwis do tworzenia i zarządzania notatkami stworzony w Spring Boot 3.x
 
 ## Technologia 📚
 
