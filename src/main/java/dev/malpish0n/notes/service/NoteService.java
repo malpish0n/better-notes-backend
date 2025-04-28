@@ -1,7 +1,8 @@
-package dev.malpish0n.service;
+package dev.malpish0n.notes.service;
 
-import dev.malpish0n.model.Note;
-import dev.malpish0n.repository.NoteRepository;
+import dev.malpish0n.notes.model.Note;
+import dev.malpish0n.notes.repository.NoteRepository;
+
 import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
