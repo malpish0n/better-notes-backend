@@ -16,13 +16,13 @@ A simple service for creating and managing notes, built with Spring Boot 3.x.
 - [x] Project structure (Controller, Service, Repository, Model)
 - [x] Embedded H2 in-memory database
 - [x] Project configuration using Spring Boot Starters
+- [x] HTTP error handling (404, 400)
 
 ## 🛠️ Planned Features
 
 - [ ] Create new notes (`POST /api/notes`)
 - [ ] Update existing notes (`PUT /api/notes/{id}`)
 - [ ] Delete notes (`DELETE /api/notes/{id}`)
-- [ ] HTTP error handling (404, 400)
 - [ ] Data validation (e.g., title cannot be empty)
 - [ ] API documentation using Swagger
 - [ ] Production deployment using PostgreSQL
