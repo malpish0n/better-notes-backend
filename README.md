@@ -15,7 +15,6 @@ A simple service for creating and managing notes, built with Spring Boot 3.x.
 - [x] Fetch a list of all notes (`GET /api/notes`)
 - [x] Project structure (Controller, Service, Repository, Model)
 - [x] Embedded H2 in-memory database
-- [x] Maven as the build system
 - [x] Project configuration using Spring Boot Starters
 
 ## 🛠️ Planned Features
