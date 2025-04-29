@@ -5,7 +5,7 @@ A simple service for creating and managing notes, built with Spring Boot 3.x.
 ## 📚 Technologies
 
 - Java 21
-- Spring Boot 3.4.4
+- Spring Boot 3.4.5
 - Spring Web, Spring Data JPA
 - H2 Database (in-memory for testing purposes)
 - Maven
