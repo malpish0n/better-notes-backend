@@ -1,11 +1,14 @@
 package dev.malpish0n.notes.service;
 
-import dev.malpish0n.notes.model.Note;
-import dev.malpish0n.notes.repository.NoteRepository;
-
-import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.stereotype.Service;
+import org.springframework.web.server.ResponseStatusException;
+
+import dev.malpish0n.notes.model.Note;
+import dev.malpish0n.notes.repository.NoteRepository;
 
 @Service
 public class NoteService {
@@ -24,8 +27,12 @@ public class NoteService {
     }
 
     public Note createNote(Note note) {
-        return noteRepository.save(note);
+    if (note.getTitle() == null || note.getTitle().isEmpty() ||
+        note.getContent() == null || note.getContent().isEmpty()) {
+        throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Title and content must not be empty");
     }
+    return noteRepository.save(note);
+}
 
     public void deleteNoteById(Long id) {
         noteRepository.deleteById(id);
