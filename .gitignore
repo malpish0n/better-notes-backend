@@ -31,3 +31,12 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Docker
+app.jar
+
+# macOS
+.DS_Store
+
+# Environment files
+.env
