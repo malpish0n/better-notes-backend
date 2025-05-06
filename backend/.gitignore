@@ -40,3 +40,6 @@ app.jar
 
 # Environment files
 .env
+
+# Maven
+/target
