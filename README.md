@@ -28,9 +28,4 @@ A simple service for creating and managing notes, built with Spring Boot 3.x.
 - [ ] Production deployment using PostgreSQL
 - [ ] User login system (Spring Security)
 
-## 🚀 How to Run the Project
-
-```bash
-git clone https://github.com/malpish0n/notes-app.git
-cd notes-app
-.\mvnw.cmd spring-boot:run
+## 🛠 Work in progress – more features coming soon.
